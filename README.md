@@ -1,3 +1,7 @@
+# Running Tacotron-2 on Tensorflow 1.15
+In order to run this code you must have tensorflow 1.15 installed, tensorflow2.x currently won't work with this codebase.
+Download your dataset and make sure your files in preprocess.py are correctingly pathed. 
+
 # Tacotron-2:
 Tensorflow implementation of DeepMind's Tacotron-2. A deep neural network architecture described in this paper: [Natural TTS synthesis by conditioning Wavenet on MEL spectogram predictions](https://arxiv.org/pdf/1712.05884.pdf)
 
